@@ -136,7 +136,7 @@ img {
 
 
 
- @media screen and (max-width: 576px){
+ @media screen and (max-width: 480px){
     .row {
         display: flex;
         flex-wrap: wrap;
