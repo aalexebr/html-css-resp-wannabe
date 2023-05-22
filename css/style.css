@@ -133,3 +133,43 @@ img {
         width: 100%
     }
  }
+
+
+
+ @media screen and (max-width: 576px){
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* LESSONS SECTION */
+    .lessons .col {
+        width: 100%;
+    }
+ /* steps  */
+    .steps .col {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+ 
+/* WHY US SECTION */
+    /* body{
+        background-color: black;
+    } */
+    .why-us{
+        background-color: black;
+        padding: 3rem 0;
+        margin-bottom: 0;
+    }
+    .why-us .col-left,
+    .why-us .col-right{
+        width: 100%;
+
+    }
+
+
+
+}
